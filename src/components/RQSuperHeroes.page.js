@@ -7,8 +7,8 @@ const fetchSuperHeroes = () => {
 }
  
 export const RQSuperHeroes = () => {
-  const onSuccess = () => {
-    console.log("data fetching successfully")
+  const onSuccess = (data) => {
+    console.log("data fetching successfully", data)
   }
 
   const onError = () => {
